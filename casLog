@@ -1,0 +1,12 @@
+
+*** Checking layout cellview 'controller/aludecoder/layout' against source cellview 'controller/aludecoder/schematic'. - Wed Dec  7 01:27:27 2022 ***
+
+INFO (LX-1076): Implicit layout bus terminal 'alucontrol<1:0>' has no corresponding schematic bus terminal.
+INFO (LX-1076): Implicit layout bus terminal 'flagw<1:0>' has no corresponding schematic bus terminal.
+INFO (LX-1078): Layout terminal 'alucontrol<0>' interface status is set 'false' but should be 'true'.
+INFO (LX-1078): Layout terminal 'alucontrol<1>' interface status is set 'false' but should be 'true'.
+INFO (LX-1078): Layout terminal 'flagw<0>' interface status is set 'false' but should be 'true'.
+INFO (LX-1078): Layout terminal 'flagw<1>' interface status is set 'false' but should be 'true'.
+
+*** Check Against Source complete. ***
+

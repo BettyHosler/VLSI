@@ -1,0 +1,94 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.7 - CAT35 10/30/2018 21:09 (sjfnl050) $
+\o Sub version:		sub-version  s231 
+\o Arguments:		-display localhost:15.0 -mpssession virtuoso12449 -mpshost student04 -namespace CDBA -cdslib /escnfs/courses/fa22-cse-40462.01/dropbox/ehosler/VLSI/cds.lib 
+\o Working Directory:	student04:/escnfs/courses/fa22-cse-40462.01/dropbox/ehosler/VLSI
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.8.5
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "basic"
+\a nrResizeWindow(cdsLibEditor list(164 187 500 400))
+\a nrResizeWindow(cdsLibEditor list(1148 324 500 400))
+\a cdsLibEditor->editAddLibButton->value = t
+\a newLibraryDialog->filePathComboBox->value = "/escnfs/courses/fa22-cse-40462.01/dropbox/ehosler/VLSI"
+\a newLibraryDialog->useMappedName->value = nil
+\a nrSetWindowVisibility(newLibraryDialog "show")
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(1126 254 541 523))
+\a newLibraryDialog->libraryListBox->value = "wordlib8"
+\a newLibraryDialog->useMappedName->value = t
+\a newLibraryDialog->libraryName->value = "wordlib8"
+\a newLibraryDialog->okButton->value = t
+\a newLibraryDialog->libraryListBox->value = nil
+\a newLibraryDialog->useMappedName->value = nil
+\a newLibraryDialog->libraryName->value = ""
+\a nrListItemAction(cdsLibEditor->mainTable 23 0)
+\o Active cell: 23 0 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a cdsLibEditor->editAddLibButton->value = t
+\a nrSetWindowVisibility(newLibraryDialog "show")
+\a nrResizeWindow(newLibraryDialog list(1118 223 541 523))
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(1121 249 551 533))
+\a newLibraryDialog->libraryListBox->value = "processor8"
+\a newLibraryDialog->useMappedName->value = t
+\a newLibraryDialog->libraryName->value = "processor8"
+\a newLibraryDialog->okButton->value = t
+\a nrListItemRename(cdsLibEditor->mainTable, 23 0 "processor8")
+\a newLibraryDialog->libraryListBox->value = nil
+\a newLibraryDialog->useMappedName->value = nil
+\a newLibraryDialog->libraryName->value = ""
+\a nrListItemAction(cdsLibEditor->mainTable 24 0)
+\o Active cell: 24 0 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a cdsLibEditor->editAddLibButton->value = t
+\a nrSetWindowVisibility(newLibraryDialog "show")
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(1116 244 561 543))
+\a newLibraryDialog->libraryListBox->value = "muddlib11"
+\a newLibraryDialog->useMappedName->value = t
+\a newLibraryDialog->libraryName->value = "muddlib11"
+\a newLibraryDialog->okButton->value = t
+\a nrListItemRename(cdsLibEditor->mainTable, 24 0 "muddlib11")
+\a newLibraryDialog->libraryListBox->value = nil
+\a newLibraryDialog->useMappedName->value = nil
+\a newLibraryDialog->libraryName->value = ""
+\a nrListItemAction(cdsLibEditor->mainTable 25 0)
+\o Active cell: 25 0 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a cdsLibEditor->editAddLibButton->value = t
+\a nrSetWindowVisibility(newLibraryDialog "show")
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(1111 239 571 553))
+\a newLibraryDialog->dirListWidget->value = "oa"
+\a newLibraryDialog->filePathComboBox->value = "/escnfs/courses/fa22-cse-40462.01/dropbox/ehosler/VLSI/oa"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/escnfs/courses/fa22-cse-40462.01/dropbox/ehosler/VLSI"
+\a nrListItemAction(newLibraryDialog->dirListWidget 2 0)
+\a newLibraryDialog->filePathComboBox->value = "/escnfs/courses/fa22-cse-40462.01/dropbox/ehosler/VLSI/oa"
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/escnfs/courses/fa22-cse-40462.01/dropbox/ehosler/VLSI/oa/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/escnfs/courses/fa22-cse-40462.01/dropbox/ehosler/VLSI/oa"
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/escnfs/courses/fa22-cse-40462.01/dropbox/ehosler/VLSI"
+\a newLibraryDialog->dirListWidget->value = "oa"
+\a newLibraryDialog->filePathComboBox->value = "/escnfs/courses/fa22-cse-40462.01/dropbox/ehosler/VLSI/oa"
+\a nrListItemAction(newLibraryDialog->dirListWidget 2 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->libraryListBox->value = "HMC_Sheets_8ths"
+\a newLibraryDialog->useMappedName->value = t
+\a newLibraryDialog->libraryName->value = "HMC_Sheets_8ths"
+\a newLibraryDialog->okButton->value = t
+\a nrListItemRename(cdsLibEditor->mainTable, 25 0 "HMC_Sheets_8ths")
+\a newLibraryDialog->libraryListBox->value = nil
+\a newLibraryDialog->useMappedName->value = nil
+\a newLibraryDialog->libraryName->value = ""
+\a nrListItemAction(cdsLibEditor->mainTable 26 0)
+\o Active cell: 26 0 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a cdsLibEditor->fileSaveButton->value = t
+\a cdsLibEditor->fileExitButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)
